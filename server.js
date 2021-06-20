@@ -20,6 +20,10 @@ const users = require('./routes/api/users');
 
 app.use('/api/users', users);
 
+app.get('/', (req, res) => {
+  res.send('Welcome to assignment server app for adding users');
+});
+
 const PORT = process.env.PORT || config.get('PORT');
 
 app.listen(PORT, () => {
