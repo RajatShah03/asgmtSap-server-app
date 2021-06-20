@@ -1,4 +1,4 @@
 {
   "PORT": "8000",
-  "MONGO_DB_URI": "mongodb://localhost:27017/pocusers"
+  "MONGO_DB_URI": "mongodb+srv://rajat:YhW0o9RMljqevMO7@cluster0.o8bxi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
